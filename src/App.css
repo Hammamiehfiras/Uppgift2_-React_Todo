@@ -1,0 +1,32 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif; /* Sätt typsnitt för appen */
+  background-color: #f4f4f4; /* Bakgrundsfärg för hela sidan */
+  margin: 0; /* Ta bort standardmarginal */
+  padding: 0; /* Ta bort standardpadding */
+}
+
+.container {
+  max-width: 600px; /* Maximal bredd för containern */
+  margin: 50px auto; /* Centrera containern */
+  padding: 20px; /* Padding inuti containern */
+  background-color: #fff; /* Vit bakgrund för containern */
+  border-radius: 8px; /* Rundade hörn */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Skugga för djup */
+}
+
+h1 {
+  text-align: center; /* Centrera titeln */
+  color: #333; /* Mörk färg för titeln */
+}
+
+.subtitle {
+  text-align: center; /* Centrera underrubriken */
+  font-size: 1.2em; /* Lite större teckensnitt för underrubriken */
+  color: #777; /* Grå färg för underrubriken */
+  margin-top: 10px; /* Utrymme mellan titel och underrubrik */
+}
+
+input[type="text"] {
+  width: 75%;
+}
